@@ -1,5 +1,6 @@
 ##支持Gif图的UIImageView
-
+####示例图
+![gifUIImageView](https://github.com/ashen-zhao/asGifImageView/blob/master/ASGifUIImageView/screenshot.gif)  
 ####功能说明：
 这是一个UIImageView的分类，可以让UIImageView支持显示本地Gif以及网络Gif图片。
 ####使用说明
