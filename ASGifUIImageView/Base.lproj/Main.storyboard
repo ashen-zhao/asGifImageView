@@ -17,22 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5wH-DS-Cos">
-                                <rect key="frame" x="180" y="200" width="240" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I8X-Jj-rGt">
+                                <rect key="frame" x="180" y="334" width="240" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="BlT-NQ-3xO"/>
-                                    <constraint firstAttribute="height" constant="200" id="aaP-ZT-egf"/>
+                                    <constraint firstAttribute="width" constant="240" id="Cb3-jI-tQt"/>
+                                    <constraint firstAttribute="height" constant="200" id="Y80-Bo-n6t"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5wH-DS-Cos">
+                                <rect key="frame" x="180" y="51" width="240" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="mZD-4n-Y8j"/>
+                                    <constraint firstAttribute="width" constant="240" id="pge-Lc-0zc"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5wH-DS-Cos" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pfu-Fo-Fqi"/>
-                            <constraint firstItem="5wH-DS-Cos" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wiB-3r-ko2"/>
+                            <constraint firstItem="I8X-Jj-rGt" firstAttribute="top" secondItem="5wH-DS-Cos" secondAttribute="bottom" constant="83" id="Cad-CW-gRF"/>
+                            <constraint firstItem="5wH-DS-Cos" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="Dba-EG-EuZ"/>
+                            <constraint firstItem="I8X-Jj-rGt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UVb-nq-E9z"/>
+                            <constraint firstItem="5wH-DS-Cos" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jRU-HW-tfy"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="gifImgV" destination="5wH-DS-Cos" id="apP-EL-ITa"/>
+                        <outlet property="gifURL" destination="I8X-Jj-rGt" id="4BP-bA-J21"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

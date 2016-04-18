@@ -15,6 +15,7 @@
 		8C5AF89B1CBF367B00A45A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5AF8991CBF367B00A45A9A /* LaunchScreen.storyboard */; };
 		8C5AF8A41CBF368900A45A9A /* UIImageView+ASGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AF8A21CBF368900A45A9A /* UIImageView+ASGif.m */; };
 		8C5AF8AA1CBF62D800A45A9A /* abc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C5AF8A91CBF62D800A45A9A /* abc.gif */; };
+		8C5AFA0A1CC4CA3300A45A9A /* screenshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C5AFA091CC4CA3300A45A9A /* screenshot.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8C5AF8A21CBF368900A45A9A /* UIImageView+ASGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ASGif.m"; sourceTree = "<group>"; };
 		8C5AF8A31CBF368900A45A9A /* UIImageView+ASGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ASGif.h"; sourceTree = "<group>"; };
 		8C5AF8A91CBF62D800A45A9A /* abc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = abc.gif; sourceTree = "<group>"; };
+		8C5AFA091CC4CA3300A45A9A /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				8C5AF88F1CBF367B00A45A9A /* AppDelegate.m */,
 				8C5AF8911CBF367B00A45A9A /* ViewController.h */,
 				8C5AF8921CBF367B00A45A9A /* ViewController.m */,
+				8C5AFA091CC4CA3300A45A9A /* screenshot.gif */,
 				8C5AF8A91CBF62D800A45A9A /* abc.gif */,
 				8C5AF8941CBF367B00A45A9A /* Main.storyboard */,
 				8C5AF8971CBF367B00A45A9A /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				8C5AF89B1CBF367B00A45A9A /* LaunchScreen.storyboard in Resources */,
 				8C5AF8981CBF367B00A45A9A /* Assets.xcassets in Resources */,
 				8C5AF8961CBF367B00A45A9A /* Main.storyboard in Resources */,
+				8C5AFA0A1CC4CA3300A45A9A /* screenshot.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				8C5AF8A11CBF367B00A45A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
